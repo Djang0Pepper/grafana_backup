@@ -1,5 +1,8 @@
 
-##…or create a new repository on the command line
+## BACKUP 
+
+
+# …or create a new repository on the command line
 
 echo "# grafana_backup" >> README.md
 git init
@@ -10,11 +13,12 @@ git remote add origin https://github.com/Djang0Pepper/grafana_backup.git
 git push -u origin main
                 
 
-##…or push an existing repository from the command line
+# …or push an existing repository from the command line
 git remote add origin https://github.com/Djang0Pepper/grafana_backup.git
 git branch -M main
 git push -u origin main
 
-## how to solve issu add origin
+
+# …to solve issu add origin
 git remote rm origin
 
